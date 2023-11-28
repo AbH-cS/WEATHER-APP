@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="weatherapp">
+            <div class="one">
+                <input id="inputbox" type="text" placeholder="Enter City Name" spellcheck="false">
+                <button onclick="btn()"><img src="weather-app-img/images/search.png" alt=""></button>
+            </div>
+            <p id="error">Invalid City Name</p>
+
+            <div id="main" class="main">
+                <div class="weather">
+                    <img id="icon" src="weather-app-img/images/clear.png" alt="">
+                    <h1 class="temp">-6°C</h1>
+                    <h2 class="city">Innichen</h2>
+                </div>
+
+                <div class="footer">
+                    <div class="col">
+                        <img src="weather-app-img/images/humidity.png" alt="">
+                        <div class="details">
+                            <p class="humidity">93%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="weather-app-img/images/wind.png" alt="">
+                        <div class="details">
+                            <p class="wind">1.03Km/hr</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="q.js"></script>
+</body>
+
+</html>
